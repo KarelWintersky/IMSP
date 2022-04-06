@@ -17,141 +17,11 @@
     <meta property="og:site_name" content="Иудо-Масонский Союз Писателей" />
     <meta property="og:description" content="Самый древний и самый могущественный союз писателей наконец выходит из подполья! Вините нас во всем!" />
 
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-        /* cyrillic */
-        @font-face {
-            font-family: 'Tenor Sans';
-            font-style: normal;
-            font-weight: 400;
-            font-display: swap;
-            src: url(/fonts/bx6ANxqUneKx06UkIXISn3F4Cl2I.woff2) format('woff2');
-            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-        }
-        /* latin-ext */
-        @font-face {
-            font-family: 'Tenor Sans';
-            font-style: normal;
-            font-weight: 400;
-            font-display: swap;
-            src: url(/fonts/bx6ANxqUneKx06UkIXISn3t4Cl2I.woff2) format('woff2');
-            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        }
-        /* latin */
-        @font-face {
-            font-family: 'Tenor Sans';
-            font-style: normal;
-            font-weight: 400;
-            font-display: swap;
-            src: url(/fonts/bx6ANxqUneKx06UkIXISn3V4Cg.woff2) format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-        }
+    <link rel="stylesheet" href="styles.css">
 
-        body {
-            background-color: rgb(197, 215, 235);
-        }
-        h1, h2, h3 {
-            font-family: 'Tenor Sans', sans-serif;
-            text-align: center;
-        }
-        .content {
-            margin-left: 170px;
-            font-family: 'Tenor Sans', sans-serif;
-            font-weight: 700;
-        }
-        .floating-menu {
-            font-family: sans-serif;
-            font-size: large;
-            background: white;
-            padding: 5px;
-            width: 130px;
-            z-index: 100;
-            top: 0;
-            position: fixed;
-        }
-        .floating-menu a,
-        .floating-menu h3 {
-            font-size: 0.9em;
-            display: block;
-            margin: 0 0.5em;
-            color: black;
-        }
-        section {
-            border-bottom: 1px solid black;
-            border-top: 1px solid black
-        }
-        .chestno {
-            color: #e22bae;
-            font-style: italic;
-            text-align: right;
-            margin: 5px 0 5px 0;
-        }
-        img {
-            width: 50%;
-            /*margin: 5px 0 5px 0;
-            border: 3px solid darkblue;*/
-        }
-        .borderedpicture {
-            background-color: #7d7d7d;
-            background-image: url("/images/eos_autumn3.jpg");
-            /*width: 100%;
-            max-width: 100%;*/
-            height: auto;
-            padding: 20px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        }
-        .copyright {
-            /*text-align: right;*/
-            margin-left: 170px;
-            font-style: italic;
-            font-size: x-small;
-        }
-        .center {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-        }
-        .center-table {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 20%;
-        }
-        table {
-        }
-        table th {
-            text-align: center;
-            font-weight: bold;
-            font-size: large;
-            padding: 15px;
-        }
-        table td {
-            padding: 10px;
-        }
-
-        @media only screen and (min-device-width: 480px){}
-
-        @media (min-width:320px) and (max-width: 481px)  {
-            /* smartphones, iPhone, portrait 480x320 phones */
-            menu {
-                display: none;
-            }
-            .content {
-                margin-left: 5px;
-            }
-        }
-        @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
-        @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
-        @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-        @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-        @media (min-width:1281px) { /* hi-res laptops and desktops */ }
-    </style>
 </head>
 <main>
-    <menu class="floating-menu">
+    <!--<menu class="floating-menu">
         <h3><img src="/images/logo.jpg" width="130"></h3>
         <a href="#about">WTF</a>
         <a href="#rules">Правила приёма</a>
@@ -161,10 +31,10 @@
         <a href="#furshet">Фуршет</a>
         <a href="#faq">Денег не хватит!</a>
         <center><img src="/images/pyra_glaz.gif" width="200"></center>
-    </menu>
+    </menu>-->
     <div class="content">
         <h1>Иудо-Масонский Союз Писателей</h1>
-        <h3>Самый древний и самый могущественный союз писателей наконец выходит из подполья! <br>Вините нас во всем!</h3>
+        <h3 style="color: black">Самый древний и самый могущественный союз писателей наконец выходит из подполья! <br>Вините нас во всем!</h3>
         <img src="/images/stol.gif" class="center-table" width="200" alt="Стол">
         <br><br>
 
@@ -179,7 +49,7 @@
             А также (ВНИМАНИЕ!) возможность претендовать на премии ИмСП, которые будут вручаться на конференции «Роскон» в начале апреля!!!<br>
             Премии вручаются за талант и объем взноса в дело иудо-масонской борьбы за настоящую честную литературу!<br>
 
-            <div class="chestno"> У нас все честно, то есть за деньги. <br />И обязательно вините нас во всем!</div>
+            <div class="vsechestno"> У нас все честно, то есть за деньги. <br />И обязательно вините нас во всем!</div>
         </section>
 
         <section id="rules">
@@ -201,15 +71,67 @@
                 <li>нечто необычное, интересное для сионских мудрецов</li>
             </ul>
             Сионских мудрецов может заинтересовать любая коллекционная редкость.<br/>
-            Бутылка виски с автографом Дивова, оранжевая футболка с автографом Байкалова, дарственная на правую почку с автографом Лукьяненко. Удивите сионских мудрецов и вам воздастся.
+            Бутылка виски с автографом Дивова, оранжевая футболка с автографом Байкалова, дарственная на правую почку с автографом Лукьяненко. Удивите сионских мудрецов и вам воздастся.<br/>
+            <a href="https://vk.com/wall-211000524_178" target="_blank">Примеры взяток</a><br/>
             <br/>
-            <br/>
-            На данный момент заняты номера 1-8, 10, 13, 20, 28, 42, 1307
 
-            <div class="chestno"> У нас все честно, то есть за деньги. <br />И обязательно вините нас во всем!</div>
+            <div class="vsechestno"> У нас все честно, то есть за деньги. <br />И обязательно вините нас во всем!</div>
         </section>
 
-        <section id="programma">
+        <section id="hymn">
+            <h3>Гимн иудомасонского союза писателей</h3>
+            <br/>
+            Сколько лет в тени боллитры хмурой,<br/>
+            Всем ветрам фантастики назло<br/>
+            Чистая жила литература,<br/>
+            Чистое искусство за бабло.<br/>
+            Вместе с ними чахла и бухала,<br/>
+            И едва не двинула коней,<br/>
+            Продавая музу по безналу<br/>
+            И по самой мизерной цене.<br/>
+            Наступили времена иные.<br/>
+            Хватит, натерпелись, допились.<br/>
+            Лейтесь смело, пейсы кружевные.<br/>
+            Выходи из тени, союзпис!<br/>
+            <br/>
+            <strong>Припев:</strong><br/>
+            <em>
+            <br/>
+            Грамотами шурши, наш гений,<br/>
+            Гроздью медалей звени на бис.<br/>
+            Время пришло выходить из тени,<br/>
+            Иудо-масонский наш союзпис.<br/>
+            </em>
+            <br/>
+            Во всем<br/>
+            Вините нас<br/>
+            Во всем<br/>
+            Вините нас<br/>
+            Платите - и вините<br/>
+            У нас все без прикрас,<br/>
+            На все есть четкий прайс<br/>
+            На русском и иврите.<br/>
+            Вините и платите,<br/>
+            Вините и платите.<br/>
+            <br/>
+            Человек рожден для громкой славы,<br/>
+            Для фанфар и лавровых венцов.<br/>
+            И на это он имеет право.<br/>
+            В чем иначе смысл, в конце концов.<br/>
+            Мы легко концы с концами сводим,<br/>
+            И с любых бабосы мы стрижем.<br/>
+            Мы достойных в гении возводим,<br/>
+            И не так уж дорого берем.<br/>
+            Встань над тщетной суетой мирскою<br/>
+            Инженером душ, любимцем муз.<br/>
+            Деньги - это дело наживное.<br/>
+            Нажил деньги - приноси в союз!<br/>
+            <br/>
+            <em>Припев</em>
+            <div class="vsechestno"> У нас все честно, то есть за деньги. <br />И обязательно вините нас во всем!</div>
+        </section>
+
+        <section id="programma" style="display: none">
             <h3>ПРОГРАММА<br/>
                 мероприятий Иудо-масонского Союза Писателей<br/>
                 в рамках конференции «Роскон-2022»</h3>
@@ -293,7 +215,7 @@
                 </tr>
             </table>
             </center>
-            <div class="chestno"> У нас все честно, то есть за деньги. <br />И обязательно вините нас во всем!</div>
+            <div class="vsechestno"> У нас все честно, то есть за деньги. <br />И обязательно вините нас во всем!</div>
         </section>
 
         <section id="awards">
@@ -308,19 +230,19 @@
             <br/>
             Премий десять, все имени великих иудо-масонских писателей, вручаются за вклад, заклад и поклад на литературу.<br/>
             Названия заранее не светим, а то неинтересно.<br/>
-            <div class="chestno"> У нас все честно, то есть за деньги. <br />И обязательно вините нас во всем!</div>
+            <div class="vsechestno"> У нас все честно, то есть за деньги. <br />И обязательно вините нас во всем!</div>
         </section>
 
         <section id="doklad">
             <h3>Анонс!</h3>
             Перед вручением премий сионскими мудрецами будет зачитан судьбоносный и прорывный доклад "История Иудо-масонского Союза Писателей от времен царя Соломона до эпохи Александра Гриценко".
             <br/>
-            <img src="/images/solomon.jpg" class="borderedpicture center" loading="lazy" alt="Царь Соломон">
+            <img src="/images/solomon.jpg" class="borderedpicture center" loading="lazy" alt="Царь Соломон"><br/>
             <br/>
             На изображении царь Соломон.<br/>
             Как выглядит Александр Гриценко, и так все знают.<br/>
 
-            <div class="chestno"> У нас все честно, то есть за деньги. <br />И обязательно вините нас во всем!</div>
+            <div class="vsechestno"> У нас все честно, то есть за деньги. <br />И обязательно вините нас во всем!</div>
         </section>
 
         <section id="furshet">
@@ -335,14 +257,14 @@
             Костюмированность приветствуется.<br/>
             Вход на фуршет для членов ИмСП бесплатный, для посторонних – за взятку, естественно.<br/>
 
-            <div class="chestno"> У нас все честно, то есть за деньги. <br />И обязательно вините нас во всем!</div>
+            <div class="vsechestno"> У нас все честно, то есть за деньги. <br />И обязательно вините нас во всем!</div>
         </section>
 
         <section id="faq">
             <h3>о премиях ИмСП</h3>
             <br/>
             Для начала расскажу вам об авторитарных премиях.<br/>
-            <img src="/images/sign.jpg" class="borderedpicture center" loading="lazy" alt="Значок"><br/>
+            <img src="/images/sign.jpg" class="borderedpicture center" loading="lazy" alt="Значок"><br/><br/>
             Они вручаются согласно решению ЦК сионских мудрецов, которых подкупить нельзя никак - таки у вас денег не хватит.<br/>
             <br/>
             ИмСП вручит на "Росконе" три таких премии:<br/>
@@ -357,11 +279,12 @@
             Но есть еще и демократические премии, и вот на них претендовать может каждый член ИмСП, который приедет на "Роскон"...<br/>
             <br/>
 
-            <div class="chestno"> У нас все честно, то есть за деньги. <br />И обязательно вините нас во всем!</div>
+            <div class="vsechestno"> У нас все честно, то есть за деньги. <br />И обязательно вините нас во всем!</div>
         </section>
-    </div>
-    <div class="copyright">
-        &copy; <a href="https://психотроника.рф" tabindex="_blank">ООО «Психотроника»</a>, работаем до последнего клиента
+
+        <div class="copyright">
+            &copy; 2022, <a href="https://психотроника.рф" target="_blank">ООО «Психотроника»</a>, работаем до последнего клиента
+        </div>
     </div>
 </main>
 </html>
